@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://cghmdt8nkdait"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.226719)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.190707, 0.803109, -0.564489, -0.257049, 0.595832, 0.760861, 0.947395, 0, 0.320067, 0, 1.95231, 0)
